@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="favicon.png">
+    <title>Gran Plaza 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurantes del Centro Comercial Gran Plaza 2</h1>
+    </header>
+
+    <!-- LOGOS EN DOS FILAS -->
+
+    <!-- Cuando activemos los modales habra que poner en cada imagen esto: onclick="mostrar('modalRodilla')" -->
+
+    <table cellpadding="30">
+        <tr>
+            <td><img src="rodilla.png" alt="Rodilla" width="250" height="250" ></td>
+            <td><img src="tacobell.png" alt="Taco Bell" width="250" height="250" ></td>
+            <td><img src="goiko.png" alt="Goiko" width="250" height="250" ></td>
+            <td><img src="100montaditos.png" alt="100 Montaditos" width="250" height="250" ></td>
+        </tr>
+        <tr>
+            <td><img src="tagliatella.png" alt="Tagliatella" width="250" height="250" ></td>
+            <td><img src="vips.png" alt="VIPS" width="250" height="250" ></td>
+            <td><img src="urbanpoke.png" alt="Urban Poke" width="250" height="250" ></td>
+            <td><img src="udon.png" alt="Udon" width="250" height="250" ></td>
+        </tr>
+    </table>
+
+    <!-- MODALES -->
+
+    <!-- En cada div habra que meter el boton cerrar: <button onclick="ocultar('modalRodilla')">Cerrar</button> -->
+
+    <!-- RODILLA -->
+    <div id="modalRodilla">
+        <h2>Rodilla</h2>
+        <img src="rodilla_tienda.jpg">
+        <p>Bocadillos, sándwiches y comida rápida saludable. Planta alta.</p>
+        <a href="https://www.rodilla.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- TACO BELL -->
+    <div id="modalTaco">
+        <h2>Taco Bell</h2>
+        <img src="tacobell_tienda.jpg">
+        <p>Comida mexicana con un toque moderno. Planta alta.</p>
+        <a href="https://www.tacobell.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- GOIKO -->
+    <div id="modalGoiko">
+        <h2>Goiko</h2>
+        <img src="goiko_tienda.jpg">
+        <p>Hamburguesas premium con ingredientes de calidad. Planta alta.</p>
+        <a href="https://www.goiko.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- 100 MONTADITOS -->
+    <div id="modalMontaditos">
+        <h2>100 Montaditos</h2>
+        <img src="100montaditos_tienda.jpg">
+        <p>Gran variedad de montaditos y cerveza. Planta alta.</p>
+        <a href="https://www.100montaditos.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- TAGLIATELLA -->
+    <div id="modalTagliatella">
+        <h2>La Tagliatella</h2>
+        <img src="tagliatella_tienda.jpg">
+        <p>Restaurante italiano con platos tradicionales. Planta alta.</p>
+        <a href="https://www.latagliatella.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- VIPS -->
+    <div id="modalVips">
+        <h2>VIPS</h2>
+        <img src="vips_tienda.jpg">
+        <p>Restaurante americano con menú variado. Planta alta.</p>
+        <a href="https://www.vips.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- URBAN POKE -->
+    <div id="modalUrban">
+        <h2>Urban Poke</h2>
+        <img src="urbanpoke_tienda.jpg">
+        <p>Bowls de poke saludables y sabrosos. Planta alta.</p>
+        <a href="https://www.urbanpoke.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- UDON -->
+    <div id="modalUdon">
+        <h2>Udon</h2>
+        <img src="udon_tienda.jpg">
+        <p>Restaurante asiático especializado en noodles y arroz. Planta alta.</p>
+        <a href="https://www.udon.es" target="_blank">Visitar web</a><br>
+    </div>
+
+
+    <!-- Cuando activemos el script tendremos que poner en cada uno de los div esto: style="display:none;" -->
+
+    <!-- FUNCION PARA MOSTAR LOS MODALES
+    <script>
+        function mostrar(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function ocultar(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+    </script>
+    -->
+
+</body>
+
+</html>
