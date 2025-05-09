@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="favicon.png">
+    <title>Gran Plaza 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tiendas del Centro Comercial Gran Plaza 2</h1>
+    </header>
+
+    <!-- LOGOS EN DOS FILAS -->
+
+    <!-- Cuando activemos los modales habra que poner en cada imagen esto: onclick="mostrar('modalZara')"  -->
+
+    <table cellpadding="30">
+        <tr>
+            <td><img src="zara.png" alt="Zara" width="250" height="250" ></td>
+            <td><img src="mango.png" alt="Mango" width="250" height="250"  ></td>
+            <td><img src="jackjones.png" alt="Jack & Jones" width="250" height="250" ">
+            </td>
+            <td><img src="jdsports.png" alt="JD Sports" width="250" height="250" ></td>
+        </tr>
+
+        <tr>
+            <td><img src="apple.png" alt="Apple Store" width="250" height="250" ></td>
+            <td><img src="fnac.png" alt="FNAC" width="250" height="250" ></td>
+            <td><img src="druni.png" alt="Druni" width="250" height="250" ></td>
+            <td><img src="alcampo.png" alt="Alcampo" width="250" height="250" ></td>
+        </tr>
+    </table>
+
+    <!-- MODALES -->
+
+    <!-- En cada div habra que poner el boton cerrar: <button onclick="ocultar('modalZara')">Cerrar</button> -->
+
+    <!-- ZARA -->
+    <div id="modalZara">
+        <h2>Zara</h2>
+        <img src="zara_tienda.jpg">
+        <p>Tienda de moda para hombre, mujer y niños. Ubicada en planta baja.</p>
+        <a href="https://www.zara.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- MANGO -->
+    <div id="modalMango">
+        <h2>Mango</h2>
+        <img src="mango_tienda.jpg" >
+        <p>Ropa elegante y casual para todos los gustos. Planta baja.</p>
+        <a href="https://shop.mango.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- JACK&JONES -->
+    <div id="modalJack">
+        <h2>Jack & Jones</h2>
+        <img src="jackjones_tienda.jpg" >
+        <p>Moda masculina urbana y moderna. Planta baja.</p>
+        <a href="https://www.jackjones.com" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- JD SPORTS -->
+    <div id="modalJD">
+        <h2>JD Sports</h2>
+        <img src="jdsports_tienda.jpg">
+        <p>Especialistas en ropa y calzado deportivo. Planta alta.</p>
+        <a href="https://www.jdsports.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- APPLE -->
+    <div id="modalApple">
+        <h2>Apple Store</h2>
+        <img src="apple_store.jpg" >
+        <p>La última tecnología Apple en un solo lugar. Planta alta.</p>
+        <a href="https://www.apple.com/es/retail/" target="_blank">Visitar web</a><br>
+    </div>
+
+
+    <!-- FNAC -->
+    <div id="modalFnac">
+        <h2>FNAC</h2>
+        <img src="fnac_tienda.jpg">
+        <p>Cultura, tecnología, libros, música y más. Planta baja.</p>
+        <a href="https://www.fnac.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- ALCAMPO -->
+    <div id="modalAlcampo">
+        <h2>Alcampo</h2>
+        <img src="alcampo_tienda.jpg">
+        <p>Supermercado con productos frescos, alimentación, hogar y más. Planta baja.</p>
+        <a href="https://www.alcampo.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- DRUNI -->
+    <div id="modalDruni">
+        <h2>Druni</h2>
+        <img src="druni_tienda.jpg">
+        <p>Perfumería y cosmética al mejor precio. Planta baja.</p>
+        <a href="https://www.druni.es" target="_blank">Visitar web</a><br>
+    </div>
+
+    <!-- Cuando activemos el script tendremos que poner en cada uno de los div esto: style="display:none;" -->
+
+    <!-- FUNCION PARA MOSTAR LOS MODALES
+    <script>
+        function mostrar(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function ocultar(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+    </script>
+    -->
+
+</body>
+
+</html>
